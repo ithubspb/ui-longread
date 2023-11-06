@@ -1,0 +1,13 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.section__heading {
+    text-align: left;
+}
+
+.section__content {
+    width: fit-content;
+}
