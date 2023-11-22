@@ -9,6 +9,9 @@ import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react(), libInjectCss()],
+  serve: {
+    root: 'sandbox'
+  },
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/main.js'),
