@@ -1,3 +1,3 @@
 import { Text } from '../lib/Text'
 
-export const TextStory = () => <Text text="Hey!"></Text>
+export const TextBasic = () => <Text text="Hey!"></Text>
