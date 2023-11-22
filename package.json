@@ -2,9 +2,18 @@
   "name": "@ithubspb/longread-ui",
   "license": "ISC",
   "private": false,
-  "version": "0.8.0",
+  "version": "0.8.1",
   "type": "module",
-  "main": "dist.main.js",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "default": "./dist/main.js"
+    },
+    "./assets": {
+      "types": "./dist/assets.d.ts",
+      "default": "./dist/assets.js"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -12,11 +21,13 @@
     "access": "public"
   },
   "scripts": {
+    "lib:dev": "vite",
     "lib:build": "vite build",
+    "lib:publish": "npm publish",
     "story:dev": "ladle serve --stories 'stories/**/*.stories.{js,jsx,mdx}'",
     "story:build": "ladle build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run lib:build"
   },
   "sideEffects": [
     "**/*.css"
@@ -26,6 +37,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@ladle/react": "^3.3.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react-swc": "^3.3.2",
@@ -37,7 +49,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite": "^4.4.5",
-    "vite-plugin-lib-inject-css": "^1.3.0",
-    "@ladle/react": "^3.3.1"
+    "vite-plugin-lib-inject-css": "^1.3.0"
   }
 }
