@@ -1,13 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-import { Button } from "../lib/main";
-
-import { Layout } from "../lib/main";
-
-
-import { Heading2 } from "../lib/main";
-
+import { Headline3 } from "../lib/main";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -15,9 +9,8 @@ const root = createRoot(rootElement);
 root.render(
   <Layout>
   <React.StrictMode>
-    <h1>Sandbox</h1>
-    <Heading2 text="Zagolovok" />
-    <Button text="Отправить" />
+    <h3>Sandbox</h3>
+    <Headline3 text="Тестовый текст"/>
   </React.StrictMode>
   </Layout>
 );
