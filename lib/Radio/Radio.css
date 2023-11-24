@@ -1,0 +1,13 @@
+.radio_line {
+    font-size: 32px;
+    display: inline-block;
+}
+.Radio {
+    width: 30px;
+    height: 30px;
+	cursor: pointer;
+}
+.Radio:checked {
+    accent-color: #E1FF47; /*Верно отображается только на темном фоне*/
+    border: 1.8px solid rgba(255, 255, 255, 0.60);
+}
