@@ -1,0 +1,67 @@
+.Zagolovok {
+  color: #e1ff47;
+  font-family: Bicubik;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 1005px;
+}
+
+.Zagolovok50 {
+  color: #e1ff47;
+  font-family: Bicubik;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  transform: translateX(-200px);
+}
+
+body {
+  background-color: #2d2d2d;
+}
+
+.Numeric2 {
+  color: #fff;
+}
+
+.Nachalo {
+  color: #fff;
+
+  text-align: center;
+  font-family: Bicubik;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: translate(-225px, 175px);
+}
+
+.Kartinka {
+  width: 680px;
+  height: 651px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  transform: translateX(-191px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: column;
+  height: 677px;
+  gap: 188px;
+  align-items: center;
+}
+.Numeric2 {
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
