@@ -24,7 +24,7 @@
 
 ### Токен
 
-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
+`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`
 
 ### Технический стэк:
   - react 18
