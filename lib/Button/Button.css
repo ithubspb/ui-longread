@@ -1,0 +1,31 @@
+.Button {
+  display: inline-flex;
+  padding: 8px 26.5px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 8px;
+  background: var(--primary-blue-500, #7480ff);
+
+  box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16),
+    0px 0px 1px 0px rgba(117, 131, 142, 0.04);
+
+  color: var(--primary-light-300, #fbfbfb);
+  text-align: center;
+
+  font-family: Metropolis;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+
+  cursor: pointer;
+}
+
+.Button:hover {
+  box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16),
+    0px 0px 1px 0px rgba(117, 131, 142, 0.04);
+  background: var(--primary-light-300, #fbfbfb);
+  color: var(--primary-dark-500, #343c44);
+}
