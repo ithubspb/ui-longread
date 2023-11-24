@@ -37,8 +37,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  transform: translateY(175px);
-  transform: translateX(-225px);
+  transform: translate(-225px, 175px);
 }
 
 .Kartinka {
