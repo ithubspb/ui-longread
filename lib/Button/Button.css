@@ -1,31 +1,41 @@
 .Button {
   display: inline-flex;
-  padding: 8px 26px;
+  padding: 20px 96px;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  border-radius: 151.668px;
+  border: 1px solid #e1ff47;
 
-  border-radius: 8px;
-  background: var(--primary-blue-500, #7480ff);
+  border-radius: 151.668px;
+  border: 2px solid #e1ff47;
 
   box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16),
     0px 0px 1px 0px rgba(117, 131, 142, 0.04);
 
-  color: var(--primary-light-300, #fbfbfb);
   text-align: center;
 
-  font-family: Metropolis;
+  font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.5px;
-
+  line-height: 2px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   cursor: pointer;
 }
 
 .Button:hover {
-  box-shadow: 0px 2px 4px 0px rgba(52, 60, 68, 0.16),
-    0px 0px 1px 0px rgba(117, 131, 142, 0.04);
-  background: var(--primary-light-300, #fbfbfb);
-  color: var(--primary-dark-500, #343c44);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

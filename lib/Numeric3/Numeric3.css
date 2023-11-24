@@ -1,0 +1,9 @@
+.Numeric3 {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+}

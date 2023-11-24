@@ -1,0 +1,9 @@
+.Numeric2 {
+    color: var(--, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Gilroy;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+}

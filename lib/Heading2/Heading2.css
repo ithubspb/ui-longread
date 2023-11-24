@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/bicubik');
+
+
+.H2 {
+    color: var(--, #823333);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Bicubik', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}

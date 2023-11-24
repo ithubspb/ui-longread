@@ -1,5 +1,10 @@
 .text {
-    color: inherit;
-    font-size: inherit;
-    line-height: inherit;
+    color: var(--, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Txt32 */
+font-family: Gilroy;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: 130%; /* 41.6px */
 }
