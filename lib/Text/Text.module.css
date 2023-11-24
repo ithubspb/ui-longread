@@ -1,10 +1,11 @@
 .text {
-    color: var(--, #FFF);
-font-feature-settings: 'clig' off, 'liga' off;
-/* Txt32 */
-font-family: Gilroy;
-font-size: 32px;
-font-style: normal;
-font-weight: 300;
-line-height: 130%; /* 41.6px */
+    color: #fff;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Txt32 */
+    font-family: Gilroy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+    /* 41.6px */
 }
