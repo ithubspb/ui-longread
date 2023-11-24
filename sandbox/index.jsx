@@ -2,6 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { Heading1 } from "../lib/Headline1/Headline1";
 
+import { Button } from "../lib/main";
+import { Radio } from "../lib/main";
 import { Numeric2 } from "../lib/main";
 import { Headline3 } from "../lib/main";
 import { Numeric3 } from "../lib/main";
