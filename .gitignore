@@ -20,5 +20,4 @@ dist-ssr
 *.sw?
 
 .env
-sandbox
 lib/main.js
