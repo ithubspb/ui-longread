@@ -1,12 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-import { Button } from "../lib/main";
-
-import { Layout } from "../lib/main";
-
-
-import { Heading2 } from "../lib/main";
+import { Numeric3 } from "../lib/main";
 
 
 const rootElement = document.getElementById("root");
@@ -16,8 +11,7 @@ root.render(
   <Layout>
   <React.StrictMode>
     <h1>Sandbox</h1>
-    <Heading2 text="Zagolovok" />
-    <Button text="Отправить" />
+    <Numeric3 text="Проверка"/>
   </React.StrictMode>
   </Layout>
 );
