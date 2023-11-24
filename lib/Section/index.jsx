@@ -8,5 +8,6 @@ export const Section = ({ title, children, ...props }) => {
                 {children}
             </div>
         </section>
+        
     )
 }
