@@ -1,17 +1,21 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-import { Numeric3 } from "../lib/main";
+import { Math } from "../lib/main";
 
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <Layout>
   <React.StrictMode>
     <h1>Sandbox</h1>
-    <Numeric3 text="Проверка"/>
+    {/* <Math formula="\sqrt[]{6,67 * 10 * \placeholder[a]{} \over \placeholder[b]{}}"/> */}
+    <Math readonly formula="a=\frac{v^2}{r}" />
+    <Math formula="g=\frac{v^2}{r}=>v^2=gr=>v=\sqrt{gr}" />
+    <Math formula="" />
+    <Math formula="" />
+    <Math formula="" />
+    <Math formula="" />
   </React.StrictMode>
-  </Layout>
 );
