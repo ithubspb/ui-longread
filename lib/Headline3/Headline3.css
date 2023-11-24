@@ -1,0 +1,9 @@
+.Heading3 {
+  color: var(--, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Bicubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 30px */
+}
