@@ -1,0 +1,13 @@
+.Heading1 {
+
+    color: var(--, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* H1 */
+    font-family: Bicubik;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 72px */
+
+}
